@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FADF4C4425330DEC00AA92A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C4325330DEC00AA92A1 /* AppDelegate.swift */; };
-		FADF4C4625330DEC00AA92A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C4525330DEC00AA92A1 /* SceneDelegate.swift */; };
-		FADF4C4825330DEC00AA92A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C4725330DEC00AA92A1 /* ViewController.swift */; };
-		FADF4C4B25330DEC00AA92A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C4925330DEC00AA92A1 /* Main.storyboard */; };
-		FADF4C4D25330DED00AA92A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C4C25330DED00AA92A1 /* Assets.xcassets */; };
-		FADF4C5025330DED00AA92A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C4E25330DED00AA92A1 /* LaunchScreen.storyboard */; };
 		FADF4C5B25330DED00AA92A1 /* ModuloTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C5A25330DED00AA92A1 /* ModuloTechTests.swift */; };
 		FADF4C6625330DEE00AA92A1 /* ModuloTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C6525330DEE00AA92A1 /* ModuloTechUITests.swift */; };
+		FADF4C91253310E000AA92A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C89253310E000AA92A1 /* ViewController.swift */; };
+		FADF4C92253310E000AA92A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C8A253310E000AA92A1 /* Assets.xcassets */; };
+		FADF4C93253310E000AA92A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C8B253310E000AA92A1 /* LaunchScreen.storyboard */; };
+		FADF4C94253310E000AA92A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C8D253310E000AA92A1 /* Main.storyboard */; };
+		FADF4C95253310E000AA92A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C8F253310E000AA92A1 /* AppDelegate.swift */; };
+		FADF4D07253315F600AA92A1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FADF4D09253315F600AA92A1 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +35,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B4A0CE2DB4FD0083EA245B5 /* Pods-ModuloTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTechTests.release.xcconfig"; path = "Target Support Files/Pods-ModuloTechTests/Pods-ModuloTechTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC64066AF645CFD60B2B7AB /* Pods-ModuloTech-ModuloTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech-ModuloTechUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63088E00A51DF139F3F7AC4B /* Pods-ModuloTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech.release.xcconfig"; path = "Target Support Files/Pods-ModuloTech/Pods-ModuloTech.release.xcconfig"; sourceTree = "<group>"; };
+		A3F03F30E29D1EE8D4C7448D /* Pods-ModuloTech-ModuloTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech-ModuloTechUITests.release.xcconfig"; path = "Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5321EEC925C0E6ABADC57BB /* Pods-ModuloTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTechTests.debug.xcconfig"; path = "Target Support Files/Pods-ModuloTechTests/Pods-ModuloTechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E48E75E8B886775D4E956B7C /* Pods-ModuloTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech.debug.xcconfig"; path = "Target Support Files/Pods-ModuloTech/Pods-ModuloTech.debug.xcconfig"; sourceTree = "<group>"; };
 		FADF4C4025330DEC00AA92A1 /* ModuloTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuloTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADF4C4325330DEC00AA92A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FADF4C4525330DEC00AA92A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FADF4C4725330DEC00AA92A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FADF4C4A25330DEC00AA92A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FADF4C4C25330DED00AA92A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FADF4C4F25330DED00AA92A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FADF4C5125330DED00AA92A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADF4C5625330DED00AA92A1 /* ModuloTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuloTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF4C5A25330DED00AA92A1 /* ModuloTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloTechTests.swift; sourceTree = "<group>"; };
 		FADF4C5C25330DED00AA92A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADF4C6125330DEE00AA92A1 /* ModuloTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuloTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF4C6525330DEE00AA92A1 /* ModuloTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloTechUITests.swift; sourceTree = "<group>"; };
 		FADF4C6725330DEE00AA92A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADF4C89253310E000AA92A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADF4C8A253310E000AA92A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADF4C8C253310E000AA92A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADF4C8E253310E000AA92A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADF4C8F253310E000AA92A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADF4C90253310E000AA92A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADF4D08253315F600AA92A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FADF4D0D2533160D00AA92A1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +83,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8691F7C36BCA356D5C425D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E48E75E8B886775D4E956B7C /* Pods-ModuloTech.debug.xcconfig */,
+				63088E00A51DF139F3F7AC4B /* Pods-ModuloTech.release.xcconfig */,
+				5EC64066AF645CFD60B2B7AB /* Pods-ModuloTech-ModuloTechUITests.debug.xcconfig */,
+				A3F03F30E29D1EE8D4C7448D /* Pods-ModuloTech-ModuloTechUITests.release.xcconfig */,
+				C5321EEC925C0E6ABADC57BB /* Pods-ModuloTechTests.debug.xcconfig */,
+				5B4A0CE2DB4FD0083EA245B5 /* Pods-ModuloTechTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		932B4212A685F6EED3CBE6E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FADF4C3725330DEC00AA92A1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				FADF4C5925330DED00AA92A1 /* ModuloTechTests */,
 				FADF4C6425330DEE00AA92A1 /* ModuloTechUITests */,
 				FADF4C4125330DEC00AA92A1 /* Products */,
+				8691F7C36BCA356D5C425D46 /* Pods */,
+				932B4212A685F6EED3CBE6E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +128,7 @@
 		FADF4C4225330DEC00AA92A1 /* ModuloTech */ = {
 			isa = PBXGroup;
 			children = (
-				FADF4C4325330DEC00AA92A1 /* AppDelegate.swift */,
-				FADF4C4525330DEC00AA92A1 /* SceneDelegate.swift */,
-				FADF4C4725330DEC00AA92A1 /* ViewController.swift */,
-				FADF4C4925330DEC00AA92A1 /* Main.storyboard */,
-				FADF4C4C25330DED00AA92A1 /* Assets.xcassets */,
-				FADF4C4E25330DED00AA92A1 /* LaunchScreen.storyboard */,
-				FADF4C5125330DED00AA92A1 /* Info.plist */,
+				FADF4C88253310E000AA92A1 /* App */,
 			);
 			path = ModuloTech;
 			sourceTree = "<group>";
@@ -128,6 +151,28 @@
 			path = ModuloTechUITests;
 			sourceTree = "<group>";
 		};
+		FADF4C88253310E000AA92A1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FADF4CFB2533158900AA92A1 /* Main */,
+				FADF4C89253310E000AA92A1 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FADF4CFB2533158900AA92A1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FADF4C8A253310E000AA92A1 /* Assets.xcassets */,
+				FADF4C90253310E000AA92A1 /* Info.plist */,
+				FADF4C8B253310E000AA92A1 /* LaunchScreen.storyboard */,
+				FADF4C8D253310E000AA92A1 /* Main.storyboard */,
+				FADF4C8F253310E000AA92A1 /* AppDelegate.swift */,
+				FADF4D09253315F600AA92A1 /* Localizable.strings */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADF4C6A25330DEE00AA92A1 /* Build configuration list for PBXNativeTarget "ModuloTech" */;
 			buildPhases = (
+				177383B1022084E764F5D55C /* [CP] Check Pods Manifest.lock */,
 				FADF4C3C25330DEC00AA92A1 /* Sources */,
 				FADF4C3D25330DEC00AA92A1 /* Frameworks */,
 				FADF4C3E25330DEC00AA92A1 /* Resources */,
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADF4C6D25330DEE00AA92A1 /* Build configuration list for PBXNativeTarget "ModuloTechTests" */;
 			buildPhases = (
+				28CD2110BE19382B478F6E5E /* [CP] Check Pods Manifest.lock */,
 				FADF4C5225330DED00AA92A1 /* Sources */,
 				FADF4C5325330DED00AA92A1 /* Frameworks */,
 				FADF4C5425330DED00AA92A1 /* Resources */,
@@ -170,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FADF4C7025330DEE00AA92A1 /* Build configuration list for PBXNativeTarget "ModuloTechUITests" */;
 			buildPhases = (
+				CDCD9CDF0503D71FB65D163B /* [CP] Check Pods Manifest.lock */,
 				FADF4C5D25330DED00AA92A1 /* Sources */,
 				FADF4C5E25330DED00AA92A1 /* Frameworks */,
 				FADF4C5F25330DED00AA92A1 /* Resources */,
@@ -213,6 +261,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = FADF4C3725330DEC00AA92A1;
 			productRefGroup = FADF4C4125330DEC00AA92A1 /* Products */;
@@ -231,9 +280,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADF4C5025330DED00AA92A1 /* LaunchScreen.storyboard in Resources */,
-				FADF4C4D25330DED00AA92A1 /* Assets.xcassets in Resources */,
-				FADF4C4B25330DEC00AA92A1 /* Main.storyboard in Resources */,
+				FADF4C94253310E000AA92A1 /* Main.storyboard in Resources */,
+				FADF4D07253315F600AA92A1 /* Localizable.strings in Resources */,
+				FADF4C92253310E000AA92A1 /* Assets.xcassets in Resources */,
+				FADF4C93253310E000AA92A1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +303,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177383B1022084E764F5D55C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModuloTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28CD2110BE19382B478F6E5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModuloTechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDCD9CDF0503D71FB65D163B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModuloTech-ModuloTechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FADF4C3C25330DEC00AA92A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADF4C4825330DEC00AA92A1 /* ViewController.swift in Sources */,
-				FADF4C4425330DEC00AA92A1 /* AppDelegate.swift in Sources */,
-				FADF4C4625330DEC00AA92A1 /* SceneDelegate.swift in Sources */,
+				FADF4C95253310E000AA92A1 /* AppDelegate.swift in Sources */,
+				FADF4C91253310E000AA92A1 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +414,29 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FADF4C4925330DEC00AA92A1 /* Main.storyboard */ = {
+		FADF4C8B253310E000AA92A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FADF4C4A25330DEC00AA92A1 /* Base */,
+				FADF4C8C253310E000AA92A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FADF4C8D253310E000AA92A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADF4C8E253310E000AA92A1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FADF4C4E25330DED00AA92A1 /* LaunchScreen.storyboard */ = {
+		FADF4D09253315F600AA92A1 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FADF4C4F25330DED00AA92A1 /* Base */,
+				FADF4D08253315F600AA92A1 /* en */,
+				FADF4D0D2533160D00AA92A1 /* fr */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -366,6 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -380,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -421,6 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -433,12 +564,13 @@
 		};
 		FADF4C6B25330DEE00AA92A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E48E75E8B886775D4E956B7C /* Pods-ModuloTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9ADM3LS84;
-				INFOPLIST_FILE = ModuloTech/Info.plist;
+				INFOPLIST_FILE = ModuloTech/App/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +578,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.AhmedK.ModuloTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FADF4C6C25330DEE00AA92A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63088E00A51DF139F3F7AC4B /* Pods-ModuloTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9ADM3LS84;
-				INFOPLIST_FILE = ModuloTech/Info.plist;
+				INFOPLIST_FILE = ModuloTech/App/Main/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +598,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = fr.AhmedK.ModuloTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		FADF4C6E25330DEE00AA92A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5321EEC925C0E6ABADC57BB /* Pods-ModuloTechTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +627,7 @@
 		};
 		FADF4C6F25330DEE00AA92A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4A0CE2DB4FD0083EA245B5 /* Pods-ModuloTechTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +650,7 @@
 		};
 		FADF4C7125330DEE00AA92A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC64066AF645CFD60B2B7AB /* Pods-ModuloTech-ModuloTechUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +671,7 @@
 		};
 		FADF4C7225330DEE00AA92A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F03F30E29D1EE8D4C7448D /* Pods-ModuloTech-ModuloTechUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

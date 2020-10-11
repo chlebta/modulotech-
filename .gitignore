@@ -1,0 +1,17 @@
+*~
+.DS_Store
+Pods
+xcuserdata
+
+/fastlane/report.xml
+/model/build_errors.log
+*.xcuserdatad/*
+.idea
+/builds
+/fastlane/tests
+/ci/artifacts
+/build
+/.bundle
+
+*.generated.swift
+
