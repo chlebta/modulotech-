@@ -3,14 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24FE352A7D85FA6857380A18 /* Pods_ModuloTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA5A4FE88A66952B2A28664 /* Pods_ModuloTechTests.framework */; };
+		E04B5940F2060EEDC0C9FF42 /* Pods_ModuloTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4574EED2C64D1D316332B26B /* Pods_ModuloTech.framework */; };
+		E4C352D4ECA62E05F8C2AB35 /* Pods_ModuloTech_ModuloTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22D7C07B81A6DFF430F4C3F /* Pods_ModuloTech_ModuloTechUITests.framework */; };
 		FAC77F6C2549E7BF00120127 /* HomeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77F6B2549E7BF00120127 /* HomeResponse.swift */; };
-		FAC77F732549E84F00120127 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77F722549E84F00120127 /* HomeViewModel.swift */; };
-		FAC77F802549E95E00120127 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77F7F2549E95E00120127 /* HomeViewController.swift */; };
+		FAC77F732549E84F00120127 /* DevicesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77F722549E84F00120127 /* DevicesListViewModel.swift */; };
+		FAC77F802549E95E00120127 /* DevicesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77F7F2549E95E00120127 /* DevicesListViewController.swift */; };
 		FAC77FA72549EEA500120127 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FA62549EEA500120127 /* MainViewController.swift */; };
+		FAC77FBA254C13C100120127 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FB9254C13C100120127 /* User.swift */; };
+		FAC77FC0254C188200120127 /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FBF254C188200120127 /* HomeRequest.swift */; };
+		FAC77FD2254C241200120127 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FD1254C241200120127 /* ProfileViewController.swift */; };
+		FAC77FD7254C242600120127 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FD6254C242600120127 /* ProfileViewModel.swift */; };
+		FAC77FDF254C264600120127 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FDE254C264600120127 /* String+Extensions.swift */; };
+		FAC77FE8254C278700120127 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC77FE7254C278700120127 /* MainTabBarViewController.swift */; };
+		FAC77FF0254C328400120127 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAC77FEF254C328400120127 /* ProfileViewController.xib */; };
 		FADF4C5B25330DED00AA92A1 /* ModuloTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C5A25330DED00AA92A1 /* ModuloTechTests.swift */; };
 		FADF4C6625330DEE00AA92A1 /* ModuloTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADF4C6525330DEE00AA92A1 /* ModuloTechUITests.swift */; };
 		FADF4C92253310E000AA92A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADF4C8A253310E000AA92A1 /* Assets.xcassets */; };
@@ -46,16 +56,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4574EED2C64D1D316332B26B /* Pods_ModuloTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuloTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4A0CE2DB4FD0083EA245B5 /* Pods-ModuloTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTechTests.release.xcconfig"; path = "Target Support Files/Pods-ModuloTechTests/Pods-ModuloTechTests.release.xcconfig"; sourceTree = "<group>"; };
 		5EC64066AF645CFD60B2B7AB /* Pods-ModuloTech-ModuloTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech-ModuloTechUITests.debug.xcconfig"; path = "Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		63088E00A51DF139F3F7AC4B /* Pods-ModuloTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech.release.xcconfig"; path = "Target Support Files/Pods-ModuloTech/Pods-ModuloTech.release.xcconfig"; sourceTree = "<group>"; };
 		A3F03F30E29D1EE8D4C7448D /* Pods-ModuloTech-ModuloTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech-ModuloTechUITests.release.xcconfig"; path = "Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C5321EEC925C0E6ABADC57BB /* Pods-ModuloTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTechTests.debug.xcconfig"; path = "Target Support Files/Pods-ModuloTechTests/Pods-ModuloTechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D22D7C07B81A6DFF430F4C3F /* Pods_ModuloTech_ModuloTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuloTech_ModuloTechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48E75E8B886775D4E956B7C /* Pods-ModuloTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuloTech.debug.xcconfig"; path = "Target Support Files/Pods-ModuloTech/Pods-ModuloTech.debug.xcconfig"; sourceTree = "<group>"; };
 		FAC77F6B2549E7BF00120127 /* HomeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeResponse.swift; sourceTree = "<group>"; };
-		FAC77F722549E84F00120127 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		FAC77F7F2549E95E00120127 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAC77F722549E84F00120127 /* DevicesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListViewModel.swift; sourceTree = "<group>"; };
+		FAC77F7F2549E95E00120127 /* DevicesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListViewController.swift; sourceTree = "<group>"; };
 		FAC77FA62549EEA500120127 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAC77FB9254C13C100120127 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAC77FBF254C188200120127 /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		FAC77FD1254C241200120127 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FAC77FD6254C242600120127 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		FAC77FDE254C264600120127 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FAC77FE7254C278700120127 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		FAC77FEF254C328400120127 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		FADF4C4025330DEC00AA92A1 /* ModuloTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuloTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF4C5625330DED00AA92A1 /* ModuloTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuloTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF4C5A25330DED00AA92A1 /* ModuloTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuloTechTests.swift; sourceTree = "<group>"; };
@@ -78,6 +97,7 @@
 		FADF4D3B2533201500AA92A1 /* RequestableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestableProtocol.swift; sourceTree = "<group>"; };
 		FADF4D3C2533201500AA92A1 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		FADF4D3D2533201500AA92A1 /* NetworkConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnector.swift; sourceTree = "<group>"; };
+		FCA5A4FE88A66952B2A28664 /* Pods_ModuloTechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModuloTechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04B5940F2060EEDC0C9FF42 /* Pods_ModuloTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24FE352A7D85FA6857380A18 /* Pods_ModuloTechTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C352D4ECA62E05F8C2AB35 /* Pods_ModuloTech_ModuloTechUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +144,9 @@
 		932B4212A685F6EED3CBE6E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4574EED2C64D1D316332B26B /* Pods_ModuloTech.framework */,
+				D22D7C07B81A6DFF430F4C3F /* Pods_ModuloTech_ModuloTechUITests.framework */,
+				FCA5A4FE88A66952B2A28664 /* Pods_ModuloTechTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,19 +167,47 @@
 			isa = PBXGroup;
 			children = (
 				FAC77FA62549EEA500120127 /* MainViewController.swift */,
-				FAC77F7B2549E92500120127 /* HomeScreen */,
+				FAC77FE7254C278700120127 /* MainTabBarViewController.swift */,
+				FAC77F7B2549E92500120127 /* DevicesTab */,
+				FAC77FCD254C23DE00120127 /* ProfileTab */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		FAC77F7B2549E92500120127 /* HomeScreen */ = {
+		FAC77F7B2549E92500120127 /* DevicesTab */ = {
 			isa = PBXGroup;
 			children = (
-				FAC77F722549E84F00120127 /* HomeViewModel.swift */,
-				FAC77F6B2549E7BF00120127 /* HomeResponse.swift */,
-				FAC77F7F2549E95E00120127 /* HomeViewController.swift */,
+				FAC77F722549E84F00120127 /* DevicesListViewModel.swift */,
+				FAC77F7F2549E95E00120127 /* DevicesListViewController.swift */,
 			);
-			path = HomeScreen;
+			path = DevicesTab;
+			sourceTree = "<group>";
+		};
+		FAC77FBE254C186B00120127 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC77F6B2549E7BF00120127 /* HomeResponse.swift */,
+				FAC77FBF254C188200120127 /* HomeRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		FAC77FCD254C23DE00120127 /* ProfileTab */ = {
+			isa = PBXGroup;
+			children = (
+				FAC77FD1254C241200120127 /* ProfileViewController.swift */,
+				FAC77FD6254C242600120127 /* ProfileViewModel.swift */,
+				FAC77FEF254C328400120127 /* ProfileViewController.xib */,
+			);
+			path = ProfileTab;
+			sourceTree = "<group>";
+		};
+		FAC77FE3254C264C00120127 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FAC77FDE254C264600120127 /* String+Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		FADF4C3725330DEC00AA92A1 = {
@@ -184,6 +238,7 @@
 				FADF4D3825331FEF00AA92A1 /* Data */,
 				FADF4D2C25331E0400AA92A1 /* Models */,
 				FADF4C88253310E000AA92A1 /* App */,
+				FAC77FE3254C264C00120127 /* Helpers */,
 			);
 			path = ModuloTech;
 			sourceTree = "<group>";
@@ -234,6 +289,7 @@
 				FADF4D2E25331E0400AA92A1 /* Light.swift */,
 				FADF4D2F25331E0400AA92A1 /* RollerShutter.swift */,
 				FADF4D3025331E0400AA92A1 /* Device.swift */,
+				FAC77FB9254C13C100120127 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -241,6 +297,7 @@
 		FADF4D3825331FEF00AA92A1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				FAC77FBE254C186B00120127 /* Requests */,
 				FAC77F702549E7F500120127 /* Networking */,
 			);
 			path = Data;
@@ -257,6 +314,7 @@
 				FADF4C3C25330DEC00AA92A1 /* Sources */,
 				FADF4C3D25330DEC00AA92A1 /* Frameworks */,
 				FADF4C3E25330DEC00AA92A1 /* Resources */,
+				DA812CA5D98006FF01E56D9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,6 +352,7 @@
 				FADF4C5D25330DED00AA92A1 /* Sources */,
 				FADF4C5E25330DED00AA92A1 /* Frameworks */,
 				FADF4C5F25330DED00AA92A1 /* Resources */,
+				1FE70E95D4AF9860A6E9FB81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -355,6 +414,7 @@
 			files = (
 				FADF4D07253315F600AA92A1 /* Localizable.strings in Resources */,
 				FADF4C92253310E000AA92A1 /* Assets.xcassets in Resources */,
+				FAC77FF0254C328400120127 /* ProfileViewController.xib in Resources */,
 				FADF4C93253310E000AA92A1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +456,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FE70E95D4AF9860A6E9FB81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModuloTech-ModuloTechUITests/Pods-ModuloTech-ModuloTechUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		28CD2110BE19382B478F6E5E /* [CP] Check Pods Manifest.lock */ = {
@@ -442,6 +519,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DA812CA5D98006FF01E56D9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuloTech/Pods-ModuloTech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ModuloTech/Pods-ModuloTech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ModuloTech/Pods-ModuloTech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -454,14 +548,20 @@
 				FADF4D3125331E0400AA92A1 /* Heater.swift in Sources */,
 				FADF4D412533201500AA92A1 /* NetworkClient.swift in Sources */,
 				FADF4D3F2533201500AA92A1 /* NetworkClientProtocol.swift in Sources */,
+				FAC77FE8254C278700120127 /* MainTabBarViewController.swift in Sources */,
 				FADF4C95253310E000AA92A1 /* AppDelegate.swift in Sources */,
 				FADF4D3E2533201500AA92A1 /* RequestInfo.swift in Sources */,
+				FAC77FD2254C241200120127 /* ProfileViewController.swift in Sources */,
 				FAC77FA72549EEA500120127 /* MainViewController.swift in Sources */,
+				FAC77FBA254C13C100120127 /* User.swift in Sources */,
 				FADF4D3225331E0400AA92A1 /* Light.swift in Sources */,
-				FAC77F732549E84F00120127 /* HomeViewModel.swift in Sources */,
+				FAC77F732549E84F00120127 /* DevicesListViewModel.swift in Sources */,
+				FAC77FD7254C242600120127 /* ProfileViewModel.swift in Sources */,
+				FAC77FDF254C264600120127 /* String+Extensions.swift in Sources */,
 				FADF4D402533201500AA92A1 /* RequestableProtocol.swift in Sources */,
 				FADF4D3425331E0400AA92A1 /* Device.swift in Sources */,
-				FAC77F802549E95E00120127 /* HomeViewController.swift in Sources */,
+				FAC77F802549E95E00120127 /* DevicesListViewController.swift in Sources */,
+				FAC77FC0254C188200120127 /* HomeRequest.swift in Sources */,
 				FADF4D3325331E0400AA92A1 /* RollerShutter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

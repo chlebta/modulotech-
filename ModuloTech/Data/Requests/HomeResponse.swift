@@ -9,9 +9,10 @@ import Foundation
 
 struct HomeResponse: Codable {
     let devices: [Device]
+    let user: User
 
     private enum CodingKeys: String, CodingKey {
-        case devices
+        case devices, user
     }
 
     func encode(to encoder: Encoder) throws { }
@@ -19,6 +20,7 @@ struct HomeResponse: Codable {
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         let wrappers = try container.decode([DeviceWrapper].self, forKey: .devices)
+        self.user = try container.decode(User.self, forKey: .user)
         self.devices = wrappers.map { $0.device }
     }
 }

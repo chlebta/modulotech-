@@ -6,6 +6,7 @@ target 'ModuloTech' do
   use_frameworks!
 
   # Pods for ModuloTech
+  pod 'RxDataSources'
 
   target 'ModuloTechTests' do
     inherit! :search_paths

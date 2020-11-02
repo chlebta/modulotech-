@@ -5,3 +5,9 @@
   Created by Ahmed K. on 11/10/2020.
   
 */
+
+"devices" = "Mes Objets";
+"profile" = "Mon Profil";
+"address" = "Address : %@";
+"name" = "%@";
+"birthDate" = "Date de naissance : %@";
